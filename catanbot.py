@@ -26,7 +26,7 @@ RANGE_NAME = "'Formulierreacties 1'!A:E"
 credentials = service_account.Credentials.from_service_account_info(
     service_account_info,
     scopes=['https://www.googleapis.com/auth/spreadsheets.readonly']
-)
+)		
 sheet_service = build('sheets', 'v4', credentials=credentials).spreadsheets()
 
 # Discord bot setup
