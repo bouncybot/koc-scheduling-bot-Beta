@@ -1,4 +1,4 @@
 #!/bin/bash
-python3 catanbot.py
+python catanbot.py
 
 
